@@ -1,0 +1,10 @@
+print ("Hello World!")
+# Exercise 1: Print your own phrase
+print ("My name is Sebastien Chua")
+print (5*5)
+# Exercise 2: Try doing the most complicated Maths you can in your head
+# and compare it to the answers you get from the computer
+# The complicated maths I chose to do in my head is 53*42
+print (53*42)
+#Exercise 3: Try 22/7  What do you get?
+print (22/7)
