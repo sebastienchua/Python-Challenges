@@ -1,0 +1,13 @@
+#Exercise 1: Setup variable and print it out.
+MyString = "abcdef"
+print(MyString)
+print(MyString[0:3])
+print(MyString[3::])
+print(MyString[0:6:2])
+print(MyString[-1:-7:-1])
+print(MyString[0:-2])
+#Exercise 2: Come up with your own variable and slice it forwards, backwards and skip a letter or two.
+MyName = "Sebastien"
+print(MyName[0:3])
+print(MyName[-1:-10:-1])
+print(MyName[3::])
