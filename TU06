@@ -1,0 +1,17 @@
+TwinTowers = 452
+MyCityTallestBuilding = int(input("What's the height of your tallest building in metres?"))
+if TwinTowers > MyCityTallestBuilding:
+    print("The KL Twin Towers is taller than your building!")
+elif TwinTowers == MyCityTallestBuilding:
+        print("You must live in KL too!")
+else:
+    print("Wow! Your city has a very tall building!")
+#Exercise 1: Create an IF number set measuring your height against other people. To make it simple do it in cm.
+MyHeight = 168
+OtherPersonsHeight = int(input("What is your height in cm?"))
+if OtherPersonsHeight > MyHeight:
+    print("Wow you are taller than me! I'm impressed.")
+elif OtherPersonsHeight == MyHeight:
+    print("Wow we are identical in height!")
+else:
+    print("Wow you are shorter than me! Lmfao haha.")
