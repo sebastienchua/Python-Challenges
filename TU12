@@ -1,0 +1,25 @@
+MyList = ["Kuala Lumpur", "London", "Paris", "New York", "Bangkok"]
+print(MyList)
+print(MyList[0])
+print(MyList[0:3])
+print(*MyList[0:3])
+print(*MyList[0:3], sep=",")
+print(MyList[-1])
+MyList.append("Beijing")
+print(MyList)
+MyList.remove("Kuala Lumpur")
+print(MyList)
+NewCity = input("Please add a city")
+MyList.append(NewCity)
+print(MyList)
+MyList.sort()
+print(MyList)
+#Exercise 1: Make your own list and print the first to fourth items with commas.
+MyOwnList = ["1,2,3,4"]
+print(MyOwnList)
+#Exercise 2: Make a list of video game characters that you can input items into.
+Mario = ["Sword", "Gun"]
+print("Currently Mario has", Mario)
+NewItem = input("After defeating the boss, Mario now has a chance to get a new item. Please choose an item.")
+Mario.append(NewItem)
+print("Mario now has", Mario)
