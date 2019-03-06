@@ -1,0 +1,14 @@
+#Exercise 1: Paste in the following code. What happens if you:
+#a. Remove the indent
+#b. Type in a capital Y
+#c. Change the "y" to "Y"
+#I tried all of the above, and it causes the code to stop working.
+#Exercise 2: Change the code to be more flexible. Can you also allow 'yes" too?
+#Exercise 3: It would be great to add a statement that if it's not raining, we can play. Have a look at this code.
+#else:print("Great we can play!")What's wrong with it?
+
+test = input("Is it raining? y/n ")
+if test in ["Y","y","Yes","yes"]:
+    print("Oh dear, no football today!")
+else:
+    print("Great we can play!")
