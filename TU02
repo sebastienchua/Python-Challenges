@@ -1,0 +1,5 @@
+MyName = input('What is your name?')
+print('Hello', MyName)
+# Exercise 1: Create your own greeting
+FriendName = input("What's the name of your friend?")
+print(FriendName, "how are you?")
