@@ -1,0 +1,10 @@
+#Exercise 1: Change the code for a celebrity of your choice.
+StephenAmellBorn = 1981
+MyAge = int(input('When were you born?'))
+AgeDifferenceOne = (MyAge-StephenAmellBorn)
+print("Stephen Amell is", AgeDifferenceOne, " years older than you")
+#Exercise 2: Change the code so that you can compare any celebrity to yourself.
+MyYearOfBirth = 2003
+CelebrityAge = int(input("In what year was the celebrity you wish to compare with born?"))
+AgeDifferenceTwo = (MyYearOfBirth-CelebrityAge)
+print("Sebastien, this celebrity is", AgeDifferenceTwo, "years apart from you.")
