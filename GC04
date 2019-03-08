@@ -1,0 +1,5 @@
+#User inputs a number. It then creates the appropriate sized pyramid.
+print("Hello! I am an intelligent program capable of creating a pyramid of any size.")
+PyramidSize = int(input("Please put in a whole number for the size of the pyramid"))
+for i in range(1, PyramidSize*2+1, 2):
+    print("x"*i)
