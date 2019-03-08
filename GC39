@@ -1,0 +1,9 @@
+#STUDENT CREATED: THE ROASTING MACHINE
+#The Random Insult Generator. You have horrible comebacks, and just keep on getting roasted by everyone.
+#This code will help you take your revenge. It must ask for the student’s name, and include that when roasting.
+#There must be a random generator based upon a list.
+import random
+print("Hello! I am an intelligent program capable of saving you from your constant humiliation, by giving you roasts")
+Roasts = ["you are a fat prick.", "you are a retard.", "your face looks like my toilet bowl, after I take a crap."]
+Name = input("What is the name of your soon to be victim?")
+print("John", random.choice(Roasts))
