@@ -1,0 +1,6 @@
+#Check the spaceship. The spaceship needs 51 hours to charge up. You need to set an alarm to check for it.
+#The time now is 2pm. What time should the alarm go off?
+print("Hello! I am an alarm capable of telling you when your spaceship will finish charging.")
+TimeNow = 2
+NumberOfHours = 51
+print("Your spaceship will finish charging at", TimeNow+NumberOfHours-48, "PM two days from now.")
