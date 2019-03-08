@@ -1,0 +1,9 @@
+#12 hour clock to 24 hour clock.
+print("Hello! I am an intelligent clock capable of converting times in AM or PM into 24 hour format.")
+Hours = int(input("How many hours since 00:00 has it been?"))
+Minutes = int(input("How many minutes since the start of the current hour has it been?"))
+TimePeriod = input("Is it AM or PM?")
+if TimePeriod in ["PM","pm","Pm","pM"]:
+    print(Hours+12, Minutes, TimePeriod)
+else:
+    print(Hours, Minutes,)
