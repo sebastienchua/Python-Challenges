@@ -1,0 +1,11 @@
+#Create a countdown for NASA.
+import time
+print("Welcome! This is a NASA countdown! When this program finishes counting to 0, a rocket will be sent into space.")
+ProgramInput = input("Please type YES to start the countdown.")
+if ProgramInput in ["YES"]:
+    for i in range(5, -1, -1):
+        print(i)
+        time.sleep(1)
+        print("Takeoff Achieved!")
+else:
+    print("Countdown Terminated.")
