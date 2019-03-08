@@ -1,0 +1,4 @@
+#Create a program to ask for somebody's name and age and then greet them.
+Name = input(("Hello! What is your name?"))
+Age = int(input("What is your age?"))
+print("Nice to meet you", Name)
