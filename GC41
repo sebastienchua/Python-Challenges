@@ -1,0 +1,4 @@
+#Divide by 3.
+print("Hello! I am an intelligent program capable of telling you if a number is exactly divisible by 3.")
+Number = int(input("Key in any base 10 number to find out if it's exactly divisible by 3."))
+print(Number % 3)
