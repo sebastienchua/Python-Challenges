@@ -1,0 +1,11 @@
+#Lazy Report Writer
+#A lazy economics teacher wants to write his reports really quickly.
+#Create a Random report writer with a list of generic comments.
+#It should ask for the number of students and then generate a random comment for each student.
+import random
+print("Hello! I am an intelligent program capable of writing generic report comments.")
+GenericComments = ["is a smart student but needs to work harder", "has good potential but needs to concentrate better",
+                   "has tremendous potential which can be realised through hard work", " is smart but gets distracted"]
+NumberOfStudents = int(input("For how many students do you need generic comments?"))
+for i in range(NumberOfStudents):
+    print(random.choice(GenericComments))
