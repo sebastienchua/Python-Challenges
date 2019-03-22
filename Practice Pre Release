@@ -1,8 +1,3 @@
-# Alright, so basically I'm having a problem with this TASK 3 
-#Calculate the overall winner and how many times they won with each type of object.
-# The problem is since I used an index to try and be clever, I don't know where to actually record the objects, I just printed the object 
-that won after each individual game, and used that to total up.
-
 Ties = 0
 Player1Wins = 0
 Player2Wins = 0
