@@ -4,7 +4,7 @@ Player2Wins = 0
 OneWins = []
 TwoWins = []
 Options = list(['paper', 'rock', 'scissors'])
-for x in range(5):
+for x in range(30):
     while True:
         p_1 = input("Player 1, rock, paper or scissors? \n\n").lower()
         if p_1 not in Options:
