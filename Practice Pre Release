@@ -1,12 +1,8 @@
 Ties = 0
 Player1Wins = 0
 Player2Wins = 0
-Player1Rock = 0
-Player1Paper = 0
-Player1Scissors = 0
-Player2Rock = 0
-Player2Paper = 0
-Player2Scissors = 0
+OneWins = []
+TwoWins = []
 Options = list(['paper', 'rock', 'scissors'])
 for x in range(5):
     while True:
@@ -26,15 +22,19 @@ for x in range(5):
         Ties += 1
     if Options.index(p_2) == (Options.index(p_1) + 1) % 3:
         print("Player 1 wins!", p_1, "wins")
+        OneWins.append(p_1)
         Player1Wins += 1
     if Options.index(p_1) == (Options.index(p_2) + 1) % 3:
         print("Player 2 wins!", p_2, "wins")
+        TwoWins.append(p_2)
         Player2Wins += 1
-
 if Player1Wins > Player2Wins:
     print("Player 1 is the overall winner!", )
+    print("Rocks used: "+str(OneWins.count("rock")), "Papers used: "+str(OneWins.count("paper")), "Scissors used: "+str
+    (OneWins.count("scissors")))
 if Player2Wins > Player1Wins:
     print("Player 2 is the overall winner!")
+    print("Rocks used: "+str(TwoWins.count("rock")), "Papers used: "+str(TwoWins.count("paper")), "Scissors used: "
+          + str(TwoWins.count("scissors")))
 if Player1Wins == Player2Wins:
     print("It's a tie!")
-
