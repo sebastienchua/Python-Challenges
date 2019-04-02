@@ -1,0 +1,12 @@
+#A data logger records the temperature of the roof of a school twice a day, at midday and midnight
+#Input and store the temperatures recorded for a month.
+#You must store the temperatures in two one-dimensional arrays,
+#one for the midday temperatures and one for the midnight temperature
+#All the temperatures must be validated on entry and any invalid temperatures rejected.
+#You must decide your own validation rules. You may assume that there are 30 days in a month.
+
+MiddayTemperature = []
+MidnightTemperature = []
+for x in range(5):
+  while True
+  MiddayTemperature 
